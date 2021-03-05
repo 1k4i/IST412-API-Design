@@ -1,10 +1,9 @@
-package com.company;
+package api.design;
 
 
 import javax.swing.*;
 import java.awt.*;
 
-public class Main {
 
     /** Shows the view of the customer dashboard
      * @author Dutt2
@@ -37,6 +36,5 @@ public class Main {
         private void loanApplication(String firstName, String lastName, double loanAmount, double interestRate) {
 
         }
-    }
-}
 
+    }
