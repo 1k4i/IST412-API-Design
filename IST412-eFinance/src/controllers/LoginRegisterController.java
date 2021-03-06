@@ -1,14 +1,27 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package controllers;
 
-/**
- *
- * @author Jared
- */
 public class LoginRegisterController {
-    
+
+    public LoginRegisterController() {
+    }
+
+    private void openLoginView() {
+    }
+
+    private void openRegistrationView() {
+    }
+
+    private void openCustomerDashboard() {
+    }
+
+    private void openEmployeeDashboard() {
+    }
+
+    private void addNewCustomer(String email, String password, String firstName, String lastName, int age) {
+        System.out.println("Registration successful! New customer added. " + firstName + lastName + age + email + password);
+    }
+
+    private void authenticate(String email, String password) {
+        System.out.println(email + "Has been authenticated.");
+    }
 }
