@@ -22,7 +22,7 @@ public class RegistrationView {
     }
 
     /**
-     * New user sign up page
+     * New user registration page
      *
      * @param email The user's email
      * @param password The user's password
