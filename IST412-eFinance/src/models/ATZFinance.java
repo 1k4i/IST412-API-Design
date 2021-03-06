@@ -23,7 +23,7 @@ public class ATZFinance {
     }
     
     public double getMaximumLoanAmount() {
-        throw new UnsupportedOperationException("Not yet implemented.");
+        throw new UnsupportedOperationException("Not yet implemented."); //temporary exception
     }
     
 }
